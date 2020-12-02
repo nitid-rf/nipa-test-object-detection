@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import UploadFile from './components/UploadFile';
+import Webcam from './components/Webcam'
+import ShowDetection from './components/ShowDetection'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h2>Nipa cloud Nvision's Object Detection</h2>
+    <UploadFile />
+    {/* <Webcam /> */}
+    <ShowDetection />
   </React.StrictMode>,
   document.getElementById('root')
 );
